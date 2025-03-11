@@ -30,4 +30,4 @@ bin/
 #all iml files
 *.iml
 #all .idea files
-.idea/
+*.idea/
