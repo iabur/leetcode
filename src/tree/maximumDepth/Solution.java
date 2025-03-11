@@ -1,6 +1,6 @@
-package tree;
+package tree.maximumDepth;
 
-public class MaximumDepth {
+public class Solution {
 
     public int maxDepth(TreeNode root) {
         if (root == null) {
