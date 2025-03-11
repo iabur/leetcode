@@ -2,6 +2,9 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+*.iml
+.idea/
+target/
 
 ### Eclipse ###
 .apt_generated
@@ -21,13 +24,33 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
 
 ### VS Code ###
 .vscode/
 
+### Java ###
+*.class
+*.jar
+*.war
+*.log
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+### Gradle ###
+.gradle/
+build/
+
 ### Mac OS ###
 .DS_Store
-#all iml files
-*.iml
-#all .idea files
-*.idea/
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
