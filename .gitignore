@@ -29,3 +29,5 @@ bin/
 .DS_Store
 #all iml files
 *.iml
+#all .idea files
+.idea/
