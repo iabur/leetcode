@@ -1,17 +1,13 @@
-package tree;
+package tree.reverseBinayTree;
 
-public class ReverseBinaryTree {
-
-
-    class Solution {
-        public tree.TreeNode invertTree(tree.TreeNode root) {
+public class Solution {
+        public TreeNode invertTree(TreeNode root) {
             if (root == null) {
                 return null;
             }
-            tree.TreeNode newTreeNode = new TreeNode(root.val);
+            TreeNode newTreeNode = new TreeNode(root.val);
             newTreeNode.left = invertTree(root.right);
             newTreeNode.right = invertTree(root.left);
             return newTreeNode;
         }
-    }
 }

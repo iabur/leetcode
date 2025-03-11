@@ -1,4 +1,4 @@
-package tree;
+package tree.reverseBinayTree;
 
 public class TreeNode {
     int val;
