@@ -1,6 +1,6 @@
 package graphs.numberOfIslands;
 
-public class Solution2 {
+public class SolutionEnhancedDFS {
     /*
 *           {'1', '1', '0', '0', '1'},
             {'1', '1', '0', '0', '1'},

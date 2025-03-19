@@ -9,7 +9,7 @@ public class Main {
                 {'0', '0', '0', '1', '1'}
         };
 
-        Solution3 solution = new Solution3();
+        SolutionBFS solution = new SolutionBFS();
         System.out.println(solution.numIslands(grid));
 
     }
