@@ -14,18 +14,18 @@ public class SolutionBFS {
 
         int rows = grid.length;
         int cols = grid[0].length;
-        int numIsIands = 0;
+        int numIslands = 0;
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == '1') {
-                    numIsIands++;
+                    numIslands++;
                     bfs(grid, i, j, rows, cols);
                 }
 
             }
         }
-        return numIsIands;
+        return numIslands;
     }
 
     private void bfs(char[][] grid, int row, int col, int rows, int cols) {
