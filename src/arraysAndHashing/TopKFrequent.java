@@ -1,9 +1,11 @@
+package arraysAndHashing;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 import java.util.PriorityQueue;
 
-class FrequentElement {
+class TopKFrequent {
     public int[] topKFrequent(int[] nums, int k) {
 
         Map<Integer, Integer> frequencyMap = new HashMap<>();

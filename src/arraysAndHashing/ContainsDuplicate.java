@@ -1,7 +1,9 @@
+package arraysAndHashing;
+
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> numberSet = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
