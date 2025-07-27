@@ -1,19 +1,16 @@
 package arraysAndHashing;
 
-public class TwoSum {
-    public int[] twoSum(int[] numbers, int target) {
-        int left = 0;
-        int right = numbers.length - 1;
+import java.util.HashMap;
+import java.util.Map;
 
-        while (left < right) {
-            int sum = numbers[left] + numbers[right];
-            if (sum == target) {
-                return new int[]{left + 1, right + 1};
-            } else if (sum > target) {
-                left++;
-                right--;
+class TwoSum {
+    public int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> solutionPair = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (solutionPair.containsKey(nums[i])) {
+                return new int[]{i, solutionPair.get(nums[i])};
             } else {
-                left++;
+                solutionPair.put(target - nums[i], i);
             }
         }
         return null;
