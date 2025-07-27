@@ -1,4 +1,4 @@
-import java.util.List;
+package linkedList;
 
 public class MergeTwoSortedList {
 
@@ -23,23 +23,6 @@ public class MergeTwoSortedList {
             current.next = list2;
         }
         return dummy.next;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 
 }

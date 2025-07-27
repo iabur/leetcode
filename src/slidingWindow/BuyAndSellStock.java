@@ -1,3 +1,5 @@
+package slidingWindow;
+
 class BuyAndSellStock {
     public int maxProfit(int[] prices) {
         if (prices.length == 0 || prices == null) {

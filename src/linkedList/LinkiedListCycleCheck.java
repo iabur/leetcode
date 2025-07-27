@@ -1,3 +1,5 @@
+package linkedList;
+
 public class LinkiedListCycleCheck {
 
     public boolean hasCycle(ListNode head) {
@@ -14,20 +16,6 @@ public class LinkiedListCycleCheck {
             fast = fast.next.next;
         }
         return true;
-    }
-
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 }
 

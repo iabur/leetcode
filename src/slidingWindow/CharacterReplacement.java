@@ -1,3 +1,5 @@
+package slidingWindow;
+
 public class CharacterReplacement {
     public int characterReplacement(String s, int k) {
         int[] count = new int[26];

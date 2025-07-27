@@ -1,3 +1,5 @@
+package binarySearch;
+
 public class Search2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = matrix.length - 1;

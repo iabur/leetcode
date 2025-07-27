@@ -1,3 +1,5 @@
+package linkedList;
+
 public class ReverseLinikList {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
@@ -15,13 +17,3 @@ public class ReverseLinikList {
 }
 
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) {
-          this.val = val; }
-     ListNode(int val, ListNode next) {
-          this.val = val;
-          this.next = next; }
- }
